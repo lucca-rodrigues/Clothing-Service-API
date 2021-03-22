@@ -22,6 +22,7 @@ Clothing é uma plataforma para cadastro e controle de vestuários em estoque, e
 
 
 # Execução com novo banco de dados:
+* Obs: o projeto foi criado inicialmente com Postgres, mas na versão final está com  SQLITE para evitar muitas configurações desnecessários, mas pode ser utilizado com qualquer banco de dados.
 * Instale o driver do banco de dados
 * Faça a configuração de conexão no ```.env``` substituindo as configurações originais.
 * Aqui segue uma lista com os scripts disponíveis para facilitar o processo:
