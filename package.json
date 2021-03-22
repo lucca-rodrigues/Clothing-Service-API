@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node serve --dev",
+    "dev": "adonis serve --dev",
     "migrate": "adonis migration:run",
     "refresh": "adonis migration:refresh",
     "reset": "adonis migration:reset",

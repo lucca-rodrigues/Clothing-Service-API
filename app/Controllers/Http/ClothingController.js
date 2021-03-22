@@ -22,7 +22,7 @@ class ClothingController {
     return clothing;
   }
 
-  async show({params, response}){
+  async show({params}){
     const clothing = await Clothing.findOrFail(params.id)
 
     return clothing
@@ -33,8 +33,8 @@ class ClothingController {
       const data = request.only([
         'title',
         'description',
-        'value',
         'inventory',
+        'value',
       ])
       clothing.merge(data)
 
