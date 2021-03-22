@@ -1,5 +1,5 @@
 
-<img src="./src/Assets/Clothing-view.png" alt="Preview platform" width="80%" height="auto" margin="0 auto">
+<img src="https://github.com/lucca-rodrigues/Clothing-WebApp/blob/master/src/Assets/Clothing-view.png" alt="Preview platform" width="80%" height="auto" margin="0 auto">
 
 # Oque é Clothing?
 
