@@ -52,6 +52,9 @@ Route.delete('/clothings/:id', 'ClothingController.destroy')
 ```
 * Para editar ou incrementar novas rotas, basta acessar ```start/routes.js```.
 
+# Insomnia
+* Se estiver utilizando o Insomnia para simular as requisições fique a vontade para utilizar o nosso arquivo base:
+<a href="https://insomnia.rest/run/?label=Clothing%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Flucca-rodrigues%2FClothing-Service-API%2Fmain%2FInsomnia_Clothing.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 # Startando o Front-end
 * Agora que sua API já esta em funcionamento, é hora de dar o start a plataforma web se ainda não estiver rodando com ```yarn start``` ou ```npm run start```.env
 
