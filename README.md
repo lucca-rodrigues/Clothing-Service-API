@@ -13,7 +13,6 @@ Clothing é uma plataforma para cadastro e controle de vestuários em estoque, e
 * Faça a instalação das dependências com ```yarn ``` ou ```npm install``` (Recomendamos a utilização do Yarn).
 
 # API Service
-* Agora com o projeto e dependências instalados, instale todas as dependências com ```yarn ``` ou ```npm install```.
 * O projeto já possui um banco de dados Sqlite integrado para facilitar a execução, mas se desejar utilizar outro banco de dados faça a instalação do driver desejado e em seguida configure os dados de conexão no ```.env```.
 
 
@@ -57,7 +56,7 @@ Route.delete('/clothings/:id', 'ClothingController.destroy')
 * Se estiver utilizando o Insomnia para simular as requisições fique a vontade para utilizar o nosso arquivo base:
 <a href="https://insomnia.rest/run/?label=Clothing%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Flucca-rodrigues%2FClothing-Service-API%2Fmain%2FInsomnia_Clothing.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 # Startando o Front-end
-* Agora que sua API já esta em funcionamento, é hora de dar o start a plataforma web se ainda não estiver rodando com ```yarn start``` ou ```npm run start```.env
+* Agora que sua API já esta em funcionamento, é hora de dar o start a plataforma web se ainda não estiver rodando com ```yarn start``` ou ```npm run start```
 
 # Agradecimentos
 * Obrigado por ter acompanhado até aqui, espero ter lhe ajudado com as configurações e detalhes sobre este projeto.
